@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 5578b82f17c954843901e8b68ca21dcc
+labels:
+- lowpoly
+- rock
+- low-poly
+- rocks
+- art
+- pack
+- set
+- free
+timeCreated: 1457638041
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 65375
+  packageName: Free Low Poly Pack
+  packageVersion: 1.2
+  assetPath: Assets/BrokenVector/FreeLowPolyPack/Prefabs/Rock Type2 04.prefab
+  uploadId: 253911

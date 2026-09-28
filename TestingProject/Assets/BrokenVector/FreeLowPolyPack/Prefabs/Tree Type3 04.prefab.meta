@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: 7c5aafe3fe2c6ef4a9150f7f44653760
+labels:
+- dead
+- plant
+- pack
+- low-poly
+- set
+- lowpoly
+- tree
+- wood
+- art
+- free
+timeCreated: 1457642339
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 65375
+  packageName: Free Low Poly Pack
+  packageVersion: 1.2
+  assetPath: Assets/BrokenVector/FreeLowPolyPack/Prefabs/Tree Type3 04.prefab
+  uploadId: 253911

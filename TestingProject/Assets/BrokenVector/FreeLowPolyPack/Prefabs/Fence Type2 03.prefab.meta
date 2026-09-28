@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: ab5e0beb1c36778479983f28b65d97dd
+labels:
+- wood
+- lowpoly
+- door
+- fences
+- fence
+- low-poly
+- free
+- pack
+- set
+- art
+timeCreated: 1462217374
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 65375
+  packageName: Free Low Poly Pack
+  packageVersion: 1.2
+  assetPath: Assets/BrokenVector/FreeLowPolyPack/Prefabs/Fence Type2 03.prefab
+  uploadId: 253911
