@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 85fc56c20d646144aaa29c3a53132116
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 247126
+  packageName: Stylized Cute Alien Character
+  packageVersion: 1.0.0
+  assetPath: Assets/Stylized Cute Alien Character/Settings/UniversalRenderPipelineAsset.asset
+  uploadId: 563608
