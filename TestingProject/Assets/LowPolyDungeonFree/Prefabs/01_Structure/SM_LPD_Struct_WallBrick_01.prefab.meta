@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b8ebe2d25c7763d373d572150b294a7d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 413300
+  packageName: EMBERHOLD - FREE - Low Poly Modular Dungeon Kit
+  packageVersion: 1.1.0
+  assetPath: Assets/LowPolyDungeonFree/Prefabs/01_Structure/SM_LPD_Struct_WallBrick_01.prefab
+  uploadId: 1042206

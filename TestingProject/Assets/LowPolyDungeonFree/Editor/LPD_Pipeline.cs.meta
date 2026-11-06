@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b66b9b56956b904fda4acedb9b40cb0d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 413300
+  packageName: EMBERHOLD - FREE - Low Poly Modular Dungeon Kit
+  packageVersion: 1.1.0
+  assetPath: Assets/LowPolyDungeonFree/Editor/LPD_Pipeline.cs
+  uploadId: 1042206
