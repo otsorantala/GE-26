@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b818c33a6bc4d9b4fb07af2754b2b0b5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 397352
+  packageName: Character Pack - Cartoon Skeleton
+  packageVersion: 1.0
+  assetPath: Assets/PolyOne/Cartoon Skeleton/Animation/Controler/Cartoon Skeleton_Controler.controller
+  uploadId: 965558
