@@ -13,6 +13,8 @@ public class Actions : MonoBehaviour {
 		animator = GetComponent<Animator> ();
 	}
 
+	// Test
+
 	void Update () {
 		float horizontal = Input.GetAxisRaw ("Horizontal");
 		float vertical = Input.GetAxisRaw ("Vertical");
