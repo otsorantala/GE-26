@@ -45,11 +45,6 @@
 # Debug symbols
 *.pdb
 
-# NuGet Packages
-*.nupkg
-**/[Pp]ackages/*
-!**/[Pp]ackages/build/
-
 # .NET build artifacts
 artifacts/
 
