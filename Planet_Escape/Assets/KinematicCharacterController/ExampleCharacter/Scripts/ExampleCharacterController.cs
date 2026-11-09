@@ -92,6 +92,8 @@ namespace KinematicCharacterController.Examples
         private Vector3 lastInnerNormal = Vector3.zero;
         private Vector3 lastOuterNormal = Vector3.zero;
 
+        private bool _isCameraFollowing;
+
         private void Awake()
         {
             // Handle initial state
@@ -103,6 +105,14 @@ namespace KinematicCharacterController.Examples
 
         private void Update()
         {
+            if (Input.GetKeyDown(KeyCode.Q))
+            {
+                _isCameraFollowing = !_isCameraFollowing;
+            }
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                _isCameraFollowing = true;
+            }
         }
 
         /// <summary>
@@ -154,6 +164,11 @@ namespace KinematicCharacterController.Examples
             // Clamp input
             Vector3 moveInputVector = Vector3.ClampMagnitude(new Vector3(inputs.MoveAxisRight, 0f, inputs.MoveAxisForward), 1f);
 
+            if (moveInputVector.sqrMagnitude > 0f || inputs.JumpDown)
+            {
+                _isCameraFollowing = false;
+            }
+
             // Calculate camera direction and rotation on the character plane
             Vector3 cameraPlanarDirection = Vector3.ProjectOnPlane(inputs.CameraRotation * Vector3.forward, Motor.CharacterUp).normalized;
             if (cameraPlanarDirection.sqrMagnitude == 0f)
@@ -169,14 +184,21 @@ namespace KinematicCharacterController.Examples
                         // Move and look inputs
                         _moveInputVector = cameraPlanarRotation * moveInputVector;
 
-                        switch (OrientationMethod)
+                        if (_isCameraFollowing)
                         {
-                            case OrientationMethod.TowardsCamera:
-                                _lookInputVector = cameraPlanarDirection;
-                                break;
-                            case OrientationMethod.TowardsMovement:
-                                _lookInputVector = _moveInputVector.normalized;
-                                break;
+                            _lookInputVector = cameraPlanarDirection;
+                        }
+                        else
+                        {
+                            switch (OrientationMethod)
+                            {
+                                case OrientationMethod.TowardsCamera:
+                                    _lookInputVector = cameraPlanarDirection;
+                                    break;
+                                case OrientationMethod.TowardsMovement:
+                                    _lookInputVector = _moveInputVector.normalized;
+                                    break;
+                            }
                         }
 
                         // Jumping input
