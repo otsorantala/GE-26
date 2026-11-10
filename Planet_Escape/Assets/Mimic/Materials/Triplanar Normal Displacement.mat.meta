@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2a0a8b654f1500b488f9ce609f4fb2b0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 245997
+  packageName: Mimic prototype
+  packageVersion: 1.0
+  assetPath: Assets/Mimic/Materials/Triplanar Normal Displacement.mat
+  uploadId: 560288

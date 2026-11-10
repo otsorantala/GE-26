@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 7453c9e397ed9c3468d5b470876e2459
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 245997
+  packageName: Mimic prototype
+  packageVersion: 1.0
+  assetPath: Assets/Mimic/Materials/Shaders/SimplexNoise3D.hlsl
+  uploadId: 560288

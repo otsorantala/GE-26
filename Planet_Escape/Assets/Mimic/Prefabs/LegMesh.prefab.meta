@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0819c97ab1c2c1a4e89838ee98d0a8e4
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 245997
+  packageName: Mimic prototype
+  packageVersion: 1.0
+  assetPath: Assets/Mimic/Prefabs/LegMesh.prefab
+  uploadId: 560288

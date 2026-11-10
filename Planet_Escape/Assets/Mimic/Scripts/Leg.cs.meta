@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7d689dd698bef9544bb6e1f078a8757e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 245997
+  packageName: Mimic prototype
+  packageVersion: 1.0
+  assetPath: Assets/Mimic/Scripts/Leg.cs
+  uploadId: 560288
