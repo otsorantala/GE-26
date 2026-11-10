@@ -1,7 +1,7 @@
-﻿using System.Collections;
+﻿/*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+//using UnityEngine.UI;
 
 namespace KinematicCharacterController.Examples
 {
@@ -10,7 +10,7 @@ namespace KinematicCharacterController.Examples
         public Camera Camera;
         public LayerMask UIMask;
 
-        public InputField CountField;
+        //public InputField CountField;
         public Image RenderOn;
         public Image SimOn;
         public Image InterpOn;
@@ -100,4 +100,4 @@ namespace KinematicCharacterController.Examples
             }
         }
     }
-}
+}*/

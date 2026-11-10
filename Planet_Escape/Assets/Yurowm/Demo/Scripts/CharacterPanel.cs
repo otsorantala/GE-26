@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+﻿/*using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ public class CharacterPanel : MonoBehaviour {
 	public Transform weaponsPanel;
 	public Transform actionsPanel;
 	public Transform camerasPanel;
-	public Button buttonPrefab;
+	//public Button buttonPrefab;
 	public Slider motionSpeed;
 
 	Actions actions;
@@ -38,7 +38,7 @@ public class CharacterPanel : MonoBehaviour {
 		CreateActionButton("Damage");
 		CreateActionButton("Death Reset", "Death");
 
-		cameras = GameObject.FindObjectsOfType<Camera>();
+		cameras = GameObject.FindObjectsOfType<Camera> ();
 		var sort = from s in cameras orderby s.name select s;
 
 		foreach (Camera c in sort)
@@ -91,3 +91,4 @@ public class CharacterPanel : MonoBehaviour {
 		Application.OpenURL ("https://www.assetstore.unity3d.com/en/#!/publisher/11008");
 	}
 }
+*/
